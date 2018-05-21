@@ -1378,6 +1378,8 @@ The watcher includes an interactive command-line interface with the ability to r
 
 ![Jest watch mode](http://facebook.github.io/jest/img/blog/15-watch.gif)
 
+(If you are on OSX and running into errors about `FSEvents` when running tests then [install watchman](https://github.com/facebook/create-react-app/issues/871))
+
 ### Version Control Integration
 
 By default, when you run `npm test`, Jest will only run the tests related to files changed since the last commit. This is an optimization designed to make your tests run fast regardless of how many tests you have. However it assumes that you don’t often commit the code that doesn’t pass the tests.
